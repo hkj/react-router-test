@@ -1,13 +1,13 @@
 {
   "name": "react-router-test",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://hkj.github.io/react-router-test/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "lint": "biome lint ./src",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
   },
