@@ -1,6 +1,7 @@
 {
   "name": "react-router-test",
   "private": true,
+  "homepage": ".",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -13,7 +14,8 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.23.1"
+    "react-router-dom": "^6.23.1",
+    "serve": "^14.2.3"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
