@@ -4,7 +4,7 @@ import { Page1 } from "./components/Page1";
 import { Page2 } from "./components/Page2";
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div className="App">
         <Link to="/">Home</Link>
         <br />
