@@ -1,6 +1,5 @@
 import { Routes, Route } from "react-router-dom";
 import { APP_NAME } from "../constants";
-import { Page2 } from "../components/Page2";
 import { Home } from "../components/Home";
 import { Page1Routes } from "./Page1Routes";
 import { Page2Routes } from "./Page2Routes";
