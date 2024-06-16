@@ -20,6 +20,7 @@ export const Page1 = () => {
       <br />
       <Link to={`${APP_NAME}/page1/detailB`}>DetailB</Link>
       <br />
+      <br />
       <button type="button" onClick={handleClick}>
         DetailA
       </button>
